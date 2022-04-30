@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>eShop</title>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <button class="cart-button" type="button">Корзина</button>
+      <div class="shoping-cart-container"></div>
+    </div>
+  </header>
+  <main>
+    <div class="wrapper">
+      <div class="goods-list"></div>
+    </div>
+    <form action="#" name = "burger" class = "burger" id="form">
+      <fieldset>
+        <legend>Выберите размер</legend>
+            <input type="radio" id="sizeBurgerSmall" name="sizeBurger" value="small" class="sizeBurger">
+            <label for="sizeBurgerSmall">Small</label>
+            <input type="radio" id="sizeBurgerBig" name="sizeBurger" value="big"  class="sizeBurger">
+            <label for="sizeBurgerBig">Big</label>
+      </fieldset>
+      <fieldset>
+        <legend>Выберите добавку</legend>
+          <input type="checkbox" id="stuffingCheese" name="cheese" value="cheese" class="stuffing">
+          <label for="stuffingCheese">Сыр</label>
+          <input type="checkbox" id="stuffingSalad" name="salad" value="salad"  class="stuffing">
+          <label for="stuffingSalad">Салат</label>
+          <input type="checkbox" id="stuffingPatato" name="patato" value="patato"  class="stuffing">
+          <label for="stuffingPatato">картофель</label>
+      </fieldset>
+      <fieldset>
+          <legend>По желанию</legend>
+          <input type="checkbox" name="spice" value="spice" id="toppingSpice"  class="topping">
+          <label for="toppingSpice">Приправа</label>
+          <input type="checkbox" name="mayo" value="mayo" id="toppingMayot" class="topping">
+          <label for="toppingMayot">Майонез</label>
+      </fieldset>
+      <button type="submit" value="ORDER" name="order">Отправить</button>
+    </form>
+    <h3 id="result"></h3>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
