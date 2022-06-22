@@ -1,0 +1,207 @@
+[
+    {
+        "time": "30 Jan 2020, 7:54:11 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:15 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:20 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:21 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:22 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 7:54:22 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:14 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:16 pm",
+        "action": "change"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:17 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:18 pm",
+        "action": "remove"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:21 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:21 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:22 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "30 Jan 2020, 8:06:23 pm",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:11 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:12 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:12 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:16 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:16 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:17 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:17 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:18 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:18 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:24 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:03:24 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:47 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:48 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:49 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:50 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:55 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:56 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:57 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:58 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:58 pm",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:58 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:35:59 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:08 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:08 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:24 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:25 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:25 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:36:26 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "22 Jun 2022, 9:37:07 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    }
+]

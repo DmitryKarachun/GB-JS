@@ -1,0 +1,46 @@
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+.cart-button {
+		color: #fff; /* цвет текста */
+		text-decoration: none; /* убирать подчёркивание у ссылок */
+		user-select: none; /* убирать выделение текста */
+		background: rgb(212,75,56); /* фон кнопки */
+		padding: .7em 1.5em; /* отступ от текста */
+		outline: none; /* убирать контур в Mozilla */
+		cursor: pointer;
+		
+	} 
+
+	 .cart-button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+	 .cart-button:active { background: rgb(152,15,0); } /* при нажатии */
+
+	.products {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: rgb(250, 248, 245);
+		justify-content: space-around;
+	}
+	.goods-item {
+		padding: 20px;
+		background-color: rgb(236, 188, 188);
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+	}
+	img {
+		object-fit: cover;
+		overflow: hidden;
+	}
+	.cart-item {
+		display: flex;
+	}
+	.cart-item > p {
+		padding: 5px;
+	}
+	.cart-block {
+		width: 200px;
+		border: 1px solid black;
+	}
