@@ -1,0 +1,150 @@
+.footer {
+    margin-top: 110px;
+}
+
+.footer__top {
+    margin-bottom: 89px;
+}
+
+.footer__top__container {
+    display: flex;
+}
+
+@media (max-width:740px) {
+    .footer__top__container {
+        flex-wrap: wrap;
+    }
+
+    .footer__top__container>* {
+        padding: 0 5px;
+    }
+}
+
+.footer__top-about-brand {
+    flex: 0 0 40%;
+}
+
+.footer__top-about-brand-text {
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+    margin-top: 30px;
+    max-width: 427px;
+}
+
+.footer__top-company {
+    flex: 0 0 20%;
+    padding-left: 20px;
+}
+
+.footer__top-information {
+    flex: 0 0 20%;
+    padding-left: 20px;
+}
+
+.footer__top-shop-category {
+    flex: 0 0 20%;
+    padding-left: 20px;
+}
+
+
+.footer__top-title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer-list>a {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+.footer-menu li:first-child {
+    line-height: 59px;
+}
+
+.footer__bottom {
+    height: 79px;
+    background-color: #e6e6e6;
+}
+
+.footer__bottom__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer-list>a:hover {
+    color: #f16d7f;
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #7a7a7a;
+}
+
+.social_link {
+    display: flex;
+}
+
+.social_link *>a {
+    font-size: 32px;
+    color: #b2b2b2;
+    display: flex;
+    align-items: center
+}
+
+.social_link *:not(:last-child) {
+    margin-right: 8px;
+}
+
+
+.facebook_icon :hover {
+    color: #f16d7f;
+}
+
+.twitter_icon :hover {
+    color: #f16d7f;
+}
+
+.linkedin_icon :hover {
+    color: #f16d7f;
+}
+
+.pinterest_icon :hover {
+    color: #f16d7f;
+}
+
+.google_icon :hover {
+    color: #f16d7f;
+}
+
+@media (max-width: 768px) {
+
+    .footer__top,
+    .footer__bottom__container {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__top__container {
+        flex-direction: column;
+    }
+
+
+}

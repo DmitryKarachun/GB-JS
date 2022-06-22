@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>checkout</title>
+</head>
+
+<body>
+    <div id="app">
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container_top container">
+                <div class="header__top-left">
+                    <div class="logo">
+                        <a href="index.html" class="logo-link">
+                            <img class="logo_img" src="img/header/logo.png" alt="logo">
+
+                            <div class="logo_text">BRAN<span>D</span></div>
+                        </a>
+                    </div>
+
+                    <div class="button_browse">
+                        <p class="button_browse-text">Browse
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </p>
+                        <div class="mega_menue">
+                            <h3 class="mega_menue_heading">Women</h3>
+                            <ul class="mega_menu_item">
+                                <li><a href="#" class="mega_menue_link">Dresses</a></li>
+                                <li><a href="#" class="mega_menue_link">Tops</a></li>
+                                <li><a href="#" class="mega_menue_link">Sweaters/Knits</a></li>
+                                <li><a href="#" class="mega_menue_link">Jackets/Coats</a></li>
+                                <li><a href="#" class="mega_menue_link">Blazers</a></li>
+                                <li><a href="#" class="mega_menue_link"> Denim</a></li>
+                                <li><a href="#" class="mega_menue_link">Leggings/Pants</a></li>
+                                <li><a href="#" class="mega_menue_link">Skirts/Shorts</a></li>
+                                <li><a href="#" class="mega_menue_link">Accessories</a></li>
+                            </ul>
+                            <h3 class="mega_menue_heading">Men</h3>
+                            <ul class="mega_menu_item">
+                                <li><a href="#" class="mega_menue_link">Tees/Tank tops</a></li>
+                                <li><a href="#" class="mega_menue_link">Shirts/Polos</a></li>
+                                <li><a href="#" class="mega_menue_link">Sweaters</a></li>
+                                <li><a href="#" class="mega_menue_link">Sweatshirts/Hoodies</a></li>
+                                <li><a href="#" class="mega_menue_link">Blazers</a></li>
+                                <li><a href="#" class="mega_menue_link">Lackets/vets</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <form action="#" method="get" class="header__container-form">
+                        <input class="header-search" type="search" name="search" placeholder="Search for item...">
+                        <button class="button-search" type="button"><i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+
+                </div>
+                <div class="header__top-right">
+                    <div class="shoping_cart">
+                        <a href="shopping_cart.html"><img src="img/header/shoping_cart.png" alt="shoping_cart"></a>
+                        <div class="mega-cart">
+                            <div class="mega-cart-items">
+                                <div class="item-cart">
+                                    <div class="item-cart-img">
+                                        <img src="img/product/product_17.jpg" alt="rebox zane">
+                                    </div>
+                                    <div class="item-cart-content">
+                                        <div class="item-cart-title">Rebox Zane</div>
+                                        <div class="item-cart-rank">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="item-cart-amount">1 x $250</div>
+                                    </div>
+                                    <div class="item-cart-action"><i class="fa fa-times-circle-o"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="item-cart">
+                                    <div class="item-cart-img">
+                                        <img src="img/product/product_19.png" alt="rebox zane">
+                                    </div>
+                                    <div class="item-cart-content">
+                                        <div class="item-cart-title">Rebox Zane</div>
+                                        <div class="item-cart-rank">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="item-cart-amount">1 x $250</div>
+                                    </div>
+                                    <div class="item-cart-action"><i class="fa fa-times-circle-o"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+
+                            <div class="mega-cart-price">
+                                <p>Total</p>
+                                <p>$500</p>
+                            </div>
+                            <form action="checkout.html">
+                                <button type="submit" class="mega-cart-button">Checkout</button>
+                            </form>
+                            <form action="shopping_cart.html">
+                                <button type="submit" class="mega-cart-button">Go to cart</button>
+                            </form>
+                        </div>
+                    </div>
+                    <form action="#">
+                        <button class="my_account"> My Account
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                    <button class="menu-bar"><i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                    </button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header__buttom">
+            <div class="header__container_bottom container">
+                <nav class="header__buttom-menu">
+                    <ul class="header__menu-list">
+                        <li class="menu-items"><a class="menu-link" href="#">Home</a></li>
+                        <li class="menu-items"><a class="menu-link" href="#">Man</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-items"><a class="menu-link" href="#">Women</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-items"><a class="menu-link" href="#">Kids</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-items"><a class="menu-link" href="#">Accoseriese</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-items last"><a class="menu-link" href="#">Featured</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-items last"><a class="menu-link" href="#">Hot Deals</a>
+                            <div class="mega-box">
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <a class="mega-link" href="#">Blazers</a>
+                                    <a class="mega-link" href="#">Denim</a>
+                                    <a class="mega-link" href="#">Leggings/Pants</a>
+                                    <a class="mega-link" href="#">Scirts/Shorts</a>
+                                    <a class="mega-link" href="#">Accessories</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+
+                                </div>
+                                <div class="mega-item">
+                                    <h3 class="mega-heading">Women</h3>
+                                    <a class="mega-link" href="#">Dresses</a>
+                                    <a class="mega-link" href="#">Tops</a>
+                                    <a class="mega-link" href="#">Sweaters/Knits</a>
+                                    <a class="mega-link" href="#">Jacket/Coats</a>
+                                    <div class="mega-link-sale">
+                                        <a class="mega-link-img" href="#">
+                                            <img src="img/header/mega_menu_img.png" alt="sale">
+                                            <p>Super <br> sale!</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="breadcrumbs">
+            <div class="breadcrumbs__container container">
+                <div class="breadcrumbs-title">New Arrivals</div>
+                <ul class="breadcrumbs-link">
+                    <li class="breadcrumbs-list"><a href="index.html">Home</a></li>
+                    <li class="breadcrumbs-list"><a href="index.html">Men</a></li>
+                    <li class="breadcrumbs-list">New arrivials</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="checkout">
+            <div class="checkout__container container">
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        01. Shipping Adress
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutGuest0" value="guest">
+                                    <label for="checkoutGuest0">checkout as guest</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutRegister0" value="register">
+                                    <label for="checkoutRegister0">register</label>
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email" required="required">
+                                </div>
+                                <div>
+                                    <label for="password6" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password6" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        02. BILING INFORMATION
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <label for="checkoutGuest5">checkout as guest</label>
+                                    <input type="radio" name="checkout" id="checkoutGuest5" value="guest">
+
+                                </div>
+                                <div>
+                                    <label for="checkoutRegister5">register</label>
+                                    <input type="radio" name="checkout" id="checkoutRegister5" value="register">
+
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email1" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email1" required="required">
+                                </div>
+                                <div>
+                                    <label for="password" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        03. Shipping INFORMATION
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutGuest1" value="guest">
+                                    <label for="checkoutGuest1">checkout as guest</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutRegister1" value="register">
+                                    <label for="checkoutRegister1">register</label>
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email2" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email2" required="required">
+                                </div>
+                                <div>
+                                    <label for="password2" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password2" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        04. Shipping METHOD
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutGuest2" value="guest">
+                                    <label for="checkoutGuest2">checkout as guest</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutRegister2" value="register">
+                                    <label for="checkoutRegister2">register</label>
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email3" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email3" required="required">
+                                </div>
+                                <div>
+                                    <label for="password3" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password3" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        05. PAYMENT METHOD
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutGuest3" value="guest">
+                                    <label for="checkoutGuest3">checkout as guest</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutRegister3" value="register">
+                                    <label for="checkoutRegister3">register</label>
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email4" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email4" required="required">
+                                </div>
+                                <div>
+                                    <label for="password4" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password4" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+                <details class="checkout_details">
+                    <summary class="checkout_summary">
+                        06. ORDER REVIEW
+                    </summary>
+                    <div class="form__checkout_body">
+                        <form action="#" class="left_form__checkout">
+                            <h3>Check as a guest or register</h3>
+                            <p>Register with us for future convenience</p>
+                            <div class="checkout_radio">
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutGuest4" value="guest">
+                                    <label for="checkoutGuest4">checkout as guest</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="checkout" id="checkoutRegister4" value="register">
+                                    <label for="checkoutRegister4">register</label>
+                                </div>
+                            </div>
+                            <h3>register and save time!</h3>
+                            <p class="indent">Register with us for future convenience</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order
+                                history
+                                and status</p>
+                            <button type="submit" class="checkout__button">Continue</button>
+
+                        </form>
+                        <form action="#" class="right_form__checkout">
+                            <h3>Already registed?</h3>
+                            <p>Please log in below</p>
+                            <div class="checkout_input">
+                                <div>
+                                    <label for="email5" class="label_input_checkout">EMAIL ADDRESS
+                                        <span>*</span></label>
+                                    <input type="email" name="email" id="email5" required="required">
+                                </div>
+                                <div>
+                                    <label for="password5" class="label_input_checkout">PASSWORD
+                                        <span>*</span></label>
+                                    <input type="password" name="password" id="password5" required="required">
+                                </div>
+                                <p>* Required Fileds</p>
+                            </div>
+                            <button type="submit" class="checkout__button checkout__button_margin">Log in</button>
+                            <a href="#" class="forgot_password">Forgot password?</a>
+                        </form>
+                    </div>
+
+
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="subscribe">
+            <div class="vl"></div>
+            <div class="subscribe__container container">
+                <div class="subscribe__container-left">
+                    <div class="review__body">
+                        <div class="review__ava">
+                            <img src="img/main/subscrible_ava.jpg" alt="ava">
+                        </div>
+                        <div class="review__content">
+                            <div class="review__text">
+                                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum
+                                    a.
+                                    Aliquam condimentum mattis neque sed pretium”</p>
+                                <p>Bin Burhan</p>
+                                <p> Dhaka, Bd</p>
+                            </div>
+                            <div class="rectangles">
+                                <div class="rectangle_white"></div>
+                                <div class="rectangle_red"></div>
+                                <div class="rectangle_white"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subscribe__container-right">
+                    <div class="subscribe__title">Subscribe</div>
+                    <div class="subscribe__subtitle"> FOR OUR NEWLETTER AND PROMOTION</div>
+                    <form action="#">
+                        <div class="subscribe__form">
+                            <input class="subcribe__input" type="email" name="subsribe" placeholder="Enter Your Email">
+                            <button class="subscribe-botton">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__top">
+                <div class="footer__top__container container">
+                    <div class="footer__top-about-brand">
+                        <div class="logo">
+                            <a href="#">
+                                <img class="logo_img" src="img/header/logo.png" alt="logo">
+                                <div class="logo_text">BRAN<span>D</span></div>
+                            </a>
+                        </div>
+                        <div class="footer__top-about-brand-text">
+                            <p>Text: Objectively transition extensive data rather than cross functional solutions.
+                                Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                                Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                            </p>
+                            <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively
+                                seize superior initiatives for wireless technologies. Dynamically optimize. Objectively
+                                strategize seamless relationships via resource sucking testing procedures.</p>
+                        </div>
+                    </div>
+                    <div class="footer__top-company">
+                        <div class="footer__top-title">COMPANY</div>
+                        <ul class="footer-menu">
+                            <li class="footer-list"><a href="#">Home</a></li>
+                            <li class="footer-list"><a href="#">Shop</a></li>
+                            <li class="footer-list"><a href="#">About</a></li>
+                            <li class="footer-list"><a href="#">How It Works</a></li>
+                            <li class="footer-list"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__top-information">
+                        <div class="footer__top-title">Information</div>
+                        <ul class="footer-menu">
+                            <li class="footer-list"><a href="#">Tearms & Condition</a></li>
+                            <li class="footer-list"><a href="#">Privacy Policy</a></li>
+                            <li class="footer-list"><a href="#">How to Buy</a></li>
+                            <li class="footer-list"><a href="#">How to Sell</a></li>
+                            <li class="footer-list"><a href="#">Promotion</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer__top-shop-category">
+                        <div class="footer__top-title">Shop Category</div>
+                        <ul class="footer-menu">
+                            <li class="footer-list"><a href="#">Men</a></li>
+                            <li class="footer-list"><a href="#">Women</a></li>
+                            <li class="footer-list"><a href="#">Chilf</a></li>
+                            <li class="footer-list"><a href="#">Apparel</a></li>
+                            <li class="footer-list"><a href="#">Brows All</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom__container container">
+                    <div class="copyright">© 2017 Brand All Rights Reserved</div>
+                    <div class="social_link">
+                        <div class="facebook_icon"><a href="#"><i class="fa fa-facebook-official "
+                                    aria-hidden="true"></i></a></div>
+                        <div class="twitter_icon"><a href="#"><i class="fa fa-twitter-square "
+                                    aria-hidden="true"></i></a></div>
+                        <div class="linkedin_icon"><a href="#"><i class="fa fa-linkedin-square "
+                                    aria-hidden="true"></i></a></div>
+                        <div class="pinterest_icon"><a href="#"><i class="fa fa-pinterest-square "
+                                    aria-hidden="true"></i></a></div>
+                        <div class="google_icon"><a href="#"><i class="fa fa-google-plus-square "
+                                    aria-hidden="true"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/ProducComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
